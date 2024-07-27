@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+nav button {
+  background-color: #575757;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav button:hover {
+  background-color: #757575;
+}
